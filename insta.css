@@ -1,0 +1,96 @@
+b{
+    font-size: 24px;
+    font-weight: 1000;
+}
+::placeholder{
+    color: white;
+    margin-left: 5px;
+}
+select{
+    font-size: 20px;
+    font-weight: 1000;
+}
+body{
+    background: linear-gradient( 125deg, blue,rgb(208, 18, 50),red,rgb(235, 235, 17));
+}
+
+.user{
+    color: aliceblue;
+    background-color: rgb(33, 31, 31);
+width: 230px;
+height:35px;
+border: none;
+padding: 5px 9px;
+border-radius :8px;
+margin-left: 10px;
+}
+input[type="password"]{
+    color: aliceblue;
+    background-color:rgb(29, 27, 27);
+    border: none;
+    padding: 5px 8px;
+    height:35px;
+    border-radius:8px;
+    max-width: 300px;  
+    margin-right: 20px;
+    
+}
+.input-box {
+    width: 70%;
+    background-color: rgb(29, 27, 27);
+    width: 245px;
+     border-radius: 8px;
+     border: none;
+}
+.input-box i{
+    color:rgb(241, 244, 247);
+    
+}
+hr{
+   /* border-color: black; */
+   border: 1px solid rgb(58, 56, 56);
+}
+#f {
+    background-color:rgb(58, 9, 235);
+    
+    
+    border-width: 10px;
+    
+    border-style: solid;
+    border-color:rgb(58, 9, 235);
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    font-size: 20px;
+   
+}
+h1{
+    color: aliceblue;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+a {
+    color:rgb(58, 9, 235);
+    text-decoration: none;
+    
+}
+.border{
+    display: flex;
+    /* position: absolute; */
+    justify-content: center;
+    align-items: center;
+    width: 45vh;
+    height: 2uh;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 4vh 2vh 4vh 2vh;
+    background-color: rgb(21, 20, 20);
+    margin-left: 85vh;
+    border-radius: 20px;
+}
+button{
+    font-weight: bolder;
+    cursor: pointer;
+}
